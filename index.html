@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robbie Portfolio</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            margin: 0;
+            padding: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        model-viewer {
+            width:100%;
+            height: 100%;
+            display:block;
+            background-color:#1a1a1a
+        }
+        .card-list {
+            max-width: 1500px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .card-item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 25px;
+            padding: 10px;
+        }
+
+        .media-box {
+            flex-shrink: 0;
+            width: 850px;
+            height: 500px;
+            background-color: #414141;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            border-radius: 4px;
+            color: #222;
+            font-weight: bold;
+            overflow: hidden; 
+        }
+
+        .media-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+
+        .media-box iframe {
+            width:100%;
+            height:100%;
+            border:none;
+            display:block;
+        }
+
+        .content-box {
+            color: #ffffff;
+            font-size: 1.5rem;
+            line-height: 1.4;
+            flex:1;
+            min-width:0;
+            word-wrap:break-word;
+            overflow-wrap: break-word;
+        }
+
+        @media (max-width: 600px) {
+            .card-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .media-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="card-list">
+
+        <div class="card-item">
+            <div class="media-box">
+                <model-viewer
+                src="https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb"
+                camera-controls
+                shadow-intensity="1"
+                camera-orbit="45deg 75deg auto">
+                </model-viewer>
+
+                <model-viewer
+                src="https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb"
+                camera-controls
+                shadow-intensity="1"
+                camera-orbit="45deg 75deg auto">
+                </model-viewer>
+
+                
+            </div>
+            <div class="content-box">
+                <h3>The Best Model</h3>
+                <p>info about the model</p>
+            </div>
+        </div>
+
+        <div class="card-item">
+            <div class="media-box">
+                <iframe 
+                    class="sketchfab-iframe"
+                    title="Model Name" 
+                    data-src="https://sketchfab.com/models/ee3812661b954c1e9d425445374641a0/embed?autostart=1" 
+                    allow="autoplay; fullscreen; xr-spatial-tracking" 
+                    xr-spatial-tracking 
+                    execution-while-out-of-viewport 
+                    execution-while-not-rendered 
+                    web-share>
+                </iframe>
+            </div>
+            <div class="content-box">
+                <h3>The Best Model</h3>
+                <p>info about the model</p>
+            </div>
+        </div>
+
+        <div class="card-item">
+            <div class="media-box">
+                <iframe 
+                    class="sketchfab-iframe"
+                    title="Model Name" 
+                    data-src="https://sketchfab.com/models/c2e5084a338b415181a74cbc0f5d3b41/embed?autostart=1" 
+                    allow="autoplay; fullscreen; xr-spatial-tracking" 
+                    xr-spatial-tracking 
+                    execution-while-out-of-viewport 
+                    execution-while-not-rendered 
+                    web-share>
+                </iframe>
+            </div>
+            <div class="content-box">
+                <h3>The Best Model</h3>
+                <p>info about the model</p>
+            </div>
+        </div>
+
+        <div class="card-item">
+            <div class="media-box">
+                <iframe 
+                    class="sketchfab-iframe"
+                    title="Model Name" 
+                    data-src="https://sketchfab.com/models/bd31a393778c4076bb51c0fa1ab010b1/embed?autostart=1" 
+                    allow="autoplay; fullscreen; xr-spatial-tracking" 
+                    xr-spatial-tracking 
+                    execution-while-out-of-viewport 
+                    execution-while-not-rendered 
+                    web-share>
+                </iframe>
+            </div>
+            <div class="content-box">
+                <h3>The Best Model</h3>
+                <p>info about the model</p>
+            </div>
+        </div>
+
+        
+
+        <div class="card-item">
+            <div class="media-box">
+                <iframe 
+                    class="sketchfab-iframe"
+                    title="Model Name" 
+                    data-src="https://sketchfab.com/models/f93953efb25d4afd8605fff2c0934516/embed?autostart=1" 
+                    allow="autoplay; fullscreen; xr-spatial-tracking" 
+                    xr-spatial-tracking 
+                    execution-while-out-of-viewport 
+                    execution-while-not-rendered 
+                    web-share>
+                </iframe>
+            </div>
+            <div class="content-box">
+                <h3>The Best Model</h3>
+                <p>info about the model</p>
+            </div>
+        </div>
+
+        <div class="card-item">
+            <div class="media-box">
+                <iframe 
+                    class="sketchfab-iframe"
+                    title="Model Name" 
+                    data-src="https://sketchfab.com/models/1e0a1a73dd55433d910e172016107966/embed?autostart=1" 
+                    allow="autoplay; fullscreen; xr-spatial-tracking" 
+                    xr-spatial-tracking 
+                    execution-while-out-of-viewport 
+                    execution-while-not-rendered 
+                    web-share>
+                </iframe>
+            </div>
+            <div class="content-box">
+                <h3>The Best Model</h3>
+                <p>info about the model</p>
+            </div>
+        </div>
+
+        <div class="card-item">
+            <div class="media-box">
+                <iframe 
+                    class="sketchfab-iframe"
+                    title="Model Name" 
+                    data-src="https://sketchfab.com/models/5cba72518b1b421c93881e0b13be72c1/embed?autostart=1" 
+                    allow="autoplay; fullscreen; xr-spatial-tracking" 
+                    xr-spatial-tracking 
+                    execution-while-out-of-viewport 
+                    execution-while-not-rendered 
+                    web-share>
+                </iframe>
+            </div>
+            <div class="content-box">
+                <h3>The Best Model</h3>
+                <p>info about the model</p>
+            </div>
+        </div>
+
+        <div class="card-item">
+            <div class="media-box">
+                <iframe 
+                    class="sketchfab-iframe"
+                    title="Model Name" 
+                    data-src="https://sketchfab.com/models/5cba72518b1b421c93881e0b13be72c1/embed?autostart=1" 
+                    allow="autoplay; fullscreen; xr-spatial-tracking" 
+                    xr-spatial-tracking 
+                    execution-while-out-of-viewport 
+                    execution-while-not-rendered 
+                    web-share>
+                </iframe>
+            </div>
+            <div class="content-box">
+                <h3>The Best Model</h3>
+                <p>info about the model</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const iframes = document.querySelectorAll('.sketchfab-iframe');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                const iframe = entry.target;
+                const dataSrc = iframe.getAttribute('data-src')
+                if (entry.isIntersecting) {
+                    if(iframe.src != dataSrc){
+                        iframe.src = dataSrc
+                    }
+                } else {
+                    //unload to save webGL3d resourses
+                    iframe.src='';
+                }
+            });
+        }, { threshold: 0.1 });//percent of box needed to be visable
+        iframes.forEach(iframe => observer.observe(iframe));
+    </script>
+</body>
+</html>
